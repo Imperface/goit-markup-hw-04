@@ -322,7 +322,7 @@ body {
 .team-social-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
   margin-left: 16px;
   margin-right: 16px;
 }
