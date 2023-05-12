@@ -23,7 +23,7 @@
   --color-border-customers-item: #8e8f99;
   --color-border-customers-item-hover-focus: #404bbf;
   --color-border-filter-button: #e7e9fc;
-  --color-border-works-list-description: #e7e9fc;
+  --color-border-works-description: #e7e9fc;
 
   --color-icon-social: #f4f4fd;
   --color-icon-customers: #8e8f99;
@@ -416,37 +416,33 @@ body {
   margin-bottom: 72px;
   gap: 24px;
 }
-.works-list {
+.works-card-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.works-list-item {
+.works-card-item {
   width: calc((100% - 48px) / 3);
 }
-.works-list-item:hover {
+.works-card-link {
+  display: block;
+}
+.works-card-link:hover,
+.works-card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.works-list-description {
+.works-card-description {
   padding: 32px 16px;
-  border: 1px solid var(--color-border-works-list-description);
+  border: 1px solid var(--color-border-works-description);
   border-top: none;
 }
-.works-subtitle {
+.works-card-subtitle {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-text-main);
 }
-.works-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.works-card-text {
   color: var(--color-text-secondary);
 }
 /* ============ /WORKS ============ */
