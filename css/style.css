@@ -500,7 +500,7 @@ body {
   border-radius: 50%;
 }
 .footer-social-link:hover,
-.footer-social-link:hover {
+.footer-social-link:focus {
   background-color: var(--color-background-footer-social-link-hover-focus);
 }
 /* ============ /FOOTER ============ */
