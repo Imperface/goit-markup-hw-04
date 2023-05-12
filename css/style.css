@@ -459,6 +459,7 @@ body {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo-web {
   display: inline-block;
@@ -474,8 +475,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text-footer);
 }
-.footer-social {
-  margin-left: 120px;
+.footer-info {
+  margin-right: 120px;
 }
 .footer-text-media {
   margin-bottom: 16px;
@@ -498,6 +499,7 @@ body {
   background-color: var(--color-background-footer-social-link);
   border-radius: 50%;
 }
+.footer-social-link:hover,
 .footer-social-link:hover {
   background-color: var(--color-background-footer-social-link-hover-focus);
 }
